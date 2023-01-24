@@ -1,0 +1,55 @@
+.modalHead {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 20px;
+    margin-bottom: 22px;
+}
+
+.metadataWrap {
+    display: flex;
+    column-gap: 17px;
+    align-items: center;
+}
+
+.metadata {
+    display: flex;
+    column-gap: 7px;
+    align-items: flex-end;
+}
+
+.postDate {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--grey99);
+}
+
+.author {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--orange);
+}
+
+.closeBtn {
+    position: absolute;
+    top: 22px;
+    right: 63px;
+    cursor: pointer;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-right: 95px;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--black);
+}

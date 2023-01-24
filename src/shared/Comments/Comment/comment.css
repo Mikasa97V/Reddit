@@ -1,0 +1,75 @@
+.commentContainer {
+    position: relative;
+}
+
+.mainCommentWrap {
+    display: flex;
+    column-gap: 21px;
+    margin-bottom: 39px;
+}
+
+.decorationWrap {
+    height: fit-content;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+svg.down {
+    transform: rotate(180deg);
+}
+
+.arrows > button.up:hover > svg > path {
+    fill: var(--green);
+}
+
+.arrows > button.down:hover > svg > path {
+    fill: var(--orange);
+}
+
+.commentWrap {
+    width: 100%;
+}
+
+.commentHeader {
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+    margin-bottom: 9px;
+}
+
+.commentBody {
+    margin-bottom: 15px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--black);
+}
+
+.commentButtons {
+
+}
+
+.commentMetaData {
+    display: flex;
+    column-gap: 4px;
+}
+
+.commentAuthor,
+.commentDate {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.commentAuthor {
+    color: var(--orange);
+}
+
+.commentDate {
+    color: var(--grey99);
+}

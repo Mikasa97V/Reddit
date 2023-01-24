@@ -1,0 +1,28 @@
+.loadMoreBtn {
+    width: fit-content;
+    height: 50px;
+    margin: 15px auto 0;
+    padding: 5px 10px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    background: var(--orange);
+    color: var(--white);
+}
+
+@media all and (min-width: 1024px) {
+    .cardsList {
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0;
+    }
+    .listLoading {
+        width: fit-content;
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+}

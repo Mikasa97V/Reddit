@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+
+.actionButtons {
+    display: flex;
+    column-gap: 29px;
+}
+
+.buttonWrap {
+    display: flex;
+    column-gap: 6px;
+    align-items: center;
+}
+
+.buttonTitle,
+.numberComments {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--grey99);
+}
+
+
+.votedWrap {
+    display: flex;
+    column-gap: 3px;
+}
+
+.votedPercentages,
+.votedTitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--grey99);
+}
+

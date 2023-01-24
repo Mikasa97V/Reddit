@@ -1,0 +1,17 @@
+.commentButtonsWrap {
+    display: flex;
+    column-gap: 27px;
+}
+
+.buttonWrap {
+    display: flex;
+    column-gap: 6px;
+    align-items: stretch;
+}
+
+.buttonText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--grey99);
+}

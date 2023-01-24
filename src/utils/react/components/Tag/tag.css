@@ -1,0 +1,13 @@
+.tagWrap {
+    padding: 3px 10px;
+
+    text-align: center;
+    background: var(--greyD9);
+}
+
+.tagText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--black);
+}

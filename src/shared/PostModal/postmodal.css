@@ -1,0 +1,60 @@
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #FFFFFF;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.15);
+    border-radius: 7px;
+    min-width: 200px;
+    min-height: 160px;
+    max-width: 80%;
+    padding: 24px;
+    margin-bottom: 25px;
+}
+
+.content {
+    overflow-y: auto;
+}
+
+.close {
+    align-self: flex-end;
+    width: 40px;
+    height: 40px;
+    margin: -24px;
+    color: #000
+}
+
+.sortWrap {
+    display: flex;
+    column-gap: 5px;
+    margin-bottom: 13px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.sortText {
+    color: var(--grey99);
+}
+
+.sortFilterText {
+    color: var(--orange);
+}
+
+.postText {
+    padding-bottom: 29px;
+    margin-bottom: 15px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--black);
+
+    border-bottom: 1px solid var(--greyD9);
+}

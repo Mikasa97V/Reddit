@@ -1,0 +1,34 @@
+.black {
+    background: var(--black);
+}
+.orange {
+    background: var(--orange);
+}
+.green {
+    background: var(--green);
+}
+.white {
+    background: var(--white);
+}
+.grayF4 {
+    background: var(--grayF4);
+}
+.greyF3 {
+    background: var(--greyF3);
+}
+.greyD9 {
+    background: var(--greyD9);
+}
+.greyC4 {
+    background: var(--greyC4);
+}
+.grey99 {
+    background: var(--grey99);
+}
+.grey66 {
+    background: var(--grey66);
+}
+
+.vertically {
+    transform: rotate(90deg);
+}

@@ -1,0 +1,10 @@
+.actionButtons {
+    width: 100%;
+    display: flex;
+    column-gap: 26px;
+    padding: 15px 19px;
+    align-items: center;
+
+    border-radius: 0 0 0 3px;
+    background: var(--greyE5);
+}
